@@ -1,0 +1,1 @@
+export type AdminState = "create" | "update" | "delete";
