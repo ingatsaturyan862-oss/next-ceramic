@@ -3,6 +3,10 @@ import { Footer } from "@/components/footer";
 import { BasketSyncer } from "@/components/basket/basket-syncer";
 import { Metadata } from "next";
 
+const baseUrl = "https://next-ceramic-seven.vercel.app"
+
+
+export const dynamic = "force-dynamic"
 
 export const metadata: Metadata = {
   title: {
@@ -15,25 +19,31 @@ export const metadata: Metadata = {
     name: "welcome to it",
     url: "",
   },
-  openGraph: {
+  openGraph: {  //ervuma hxman nkar@,vernagir@
     title: "Next Ceramic",
     description: "The best ceramic on the world",
-    images: [{
-      url: "",
-      width: 1200,
-      height: 800,
-      alt: ""
-    }]
+    url: baseUrl,
+    siteName: "Next Ceramic",
+    images: [
+      {
+        url: baseUrl + "/og.jpg",
+        width: 1200,
+        height: 800,
+        alt: ""
+      },
+    ]
   },
   twitter: {
     title: "Next Ceramic",
     description: "The best ceramic on the world",
-    images: [{
-      url: "",
-      width: 1200,
-      height: 800,
-      alt: ""
-    }]
+    images: [
+      {
+        url: baseUrl + "/og.jpg",
+        width: 1200,
+        height: 800,
+        alt: ""
+      },
+    ],
   },
   robots: {
     index: true,
