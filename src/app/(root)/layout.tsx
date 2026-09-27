@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   description: "The best ceramic on the world",
   keywords: ["ceramic", "design", "home"],
   authors: {
-    name: "welcome to it",
+    name: "Next Ceramic",
     url: "",
   },
   openGraph: {  //ervuma hxman nkar@,vernagir@
