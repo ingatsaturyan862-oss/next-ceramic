@@ -1,7 +1,7 @@
 import React from "react";
-import { cn } from "@/lib/utils";
-import { Dialog, DialogContent, DialogTitle, DialogTrigger } from "./ui/dialog";
-import { Button } from "./ui/button";
+import { cn } from "@/shared/lib/cn";
+import { Dialog, DialogContent, DialogTitle, DialogTrigger } from "../shared/ui/dialog";
+import { Button } from "../shared/ui/button";
 import { FormRegister } from "./form/form-register";
 import { FormLogin } from "./form/form-login";
 import { signIn } from "@/lib/auth-client";

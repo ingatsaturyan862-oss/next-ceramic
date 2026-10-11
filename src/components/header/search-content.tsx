@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import React from "react";
-import { cn } from "@/lib/utils";
+import { cn } from "@/shared/lib/cn";
 import Link from "next/link";
 // import { Product } from "@prisma/client";
 import Image from "next/image";

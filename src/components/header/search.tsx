@@ -1,9 +1,9 @@
 "use client";
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import React from "react";
-import { cn } from "@/lib/utils";
+import { cn } from "@/shared/lib/cn";
 import { SearchIcon } from "lucide-react";
-import { Input } from "../ui/input";
+import { Input } from "../../shared/ui/input";
 import { useClickAway, useDebounce } from "react-use";
 import { SearchContent } from "./search-content";
 import { getSearch } from "@/lib/search";

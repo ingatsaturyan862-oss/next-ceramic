@@ -1,7 +1,7 @@
 import React from "react";
-import { cn } from "@/lib/utils";
-import { Button, } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
+import { cn } from "@/shared/lib/cn";
+import { Button, } from "@/shared/ui/button";
+import { Input } from "@/shared/ui/input";
 import { AdminColorSelect } from "./admin-color-select";
 import { AdminProductProps } from "@/hooks/admin/admin-product";
 import { Category, Color } from "@prisma/client";

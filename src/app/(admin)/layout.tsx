@@ -1,7 +1,7 @@
 import { AppSidebar } from "@/components/app-sidebar";
 import { SiteHeader } from "@/components/site-header";
-import { SidebarInset, SidebarProvider } from "@/components/ui/sidebar";
-import { TooltipProvider } from "@/components/ui/tooltip";
+import { SidebarInset, SidebarProvider } from "@/shared/ui/sidebar";
+import { TooltipProvider } from "@/shared/ui/tooltip";
 import { isAdmin } from "@/lib/is-admin";
 import { notFound } from "next/navigation";
 

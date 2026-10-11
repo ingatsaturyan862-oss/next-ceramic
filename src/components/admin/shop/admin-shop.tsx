@@ -1,7 +1,7 @@
 import React from "react";
-import { cn } from "@/lib/utils";
+import { cn } from "@/shared/lib/cn";
 import { prisma } from "@/prisma/prisma-client";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/shared/ui/tabs";
 import { AdminCategory } from "./admin-category";
 import { AdminPrice } from "./admin-price";
 import { AdminProduct } from "./product/product/admin-product";
@@ -19,7 +19,7 @@ export const AdminShop: React.FC<Props> = async (props) => {
     prisma.color.findMany(),
     prisma.priceRange.findMany(),
     prisma.product.findMany({
-      include: { color: true }, 
+      include: { color: true },
     }),
   ]);
 

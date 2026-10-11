@@ -1,8 +1,8 @@
 "use client";
 import React from "react";
-import { cn } from "@/lib/utils";
+import { cn } from "@/shared/lib/cn";
 import { ColorPicker } from "./color-picker";
-import { Button } from "../ui/button";
+import { Button } from "../../shared/ui/button";
 import { Minus, Plus } from "lucide-react";
 import { useBasket } from "@/hooks/use-basket";
 import { toast } from "sonner";

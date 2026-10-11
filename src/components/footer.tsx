@@ -1,8 +1,8 @@
 import React from "react";
-import { cn } from "@/lib/utils";
-import { Container } from "./container";
-import { Logo } from "./logo";
-import { Button } from "./ui/button";
+import { cn } from "@/shared/lib/cn";
+import { Container } from "../shared/ui/container";
+import { Logo } from "../shared/ui/logo";
+import { Button } from "../shared/ui/button";
 import { ArrowRight } from "lucide-react";
 import {
   footerAboutUs,

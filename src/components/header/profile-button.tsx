@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 import React from "react";
-import { cn } from "@/lib/utils";
+import { cn } from "@/shared/lib/cn";
 import { useSession } from "@/lib/auth-client";
 import Link from "next/link";
 import { UserCircle, UserIcon } from "lucide-react";

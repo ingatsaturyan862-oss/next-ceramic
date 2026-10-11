@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
-import { cn } from "@/lib/utils";
-import { Button } from "../ui/button";
+import { cn } from "@/shared/lib/cn";
+import { Button } from "../../shared/ui/button";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { usePagination } from "@/hooks/use-pagination";
 

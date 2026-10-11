@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { cn } from "@/lib/utils";
+import { cn } from "@/shared/lib/cn";
 import Link from "next/link";
 import { ShoppingCart } from "lucide-react";
 import { useBasket } from "@/hooks/use-basket";

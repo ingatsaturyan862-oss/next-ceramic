@@ -1,5 +1,5 @@
 "use client";
-import { cn } from "@/lib/utils";
+import { cn } from "@/shared/lib/cn";
 import React, { useState } from "react";
 import { GetColorName } from "hex-color-to-color-name";
 

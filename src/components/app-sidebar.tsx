@@ -12,7 +12,7 @@ import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
-} from "@/components/ui/sidebar";
+} from "@/shared/ui/sidebar";
 import { CommandIcon } from "lucide-react";
 import {
   ChartBarIcon,

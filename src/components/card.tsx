@@ -1,6 +1,6 @@
 import React from "react";
-import { cn } from "@/lib/utils";
-import { Button } from "./ui/button";
+import { cn } from "@/shared/lib/cn";
+import { Button } from "../shared/ui/button";
 import Image from "next/image";
 import Link from "next/link";
 import { useBasketStore } from "@/store/use-basket-store";

@@ -6,8 +6,8 @@ import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
-} from "@/components/ui/sidebar";
-import { TabsList, TabsTrigger } from "./ui/tabs";
+} from "@/shared/ui/sidebar";
+import { TabsList, TabsTrigger } from "../shared/ui/tabs";
 import Link from "next/link";
 
 export function NavMain({

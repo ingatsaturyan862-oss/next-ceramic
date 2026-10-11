@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { cn } from "@/lib/utils";
+import { cn } from "@/shared/lib/cn";
 import { ChevronDown } from "lucide-react";
 import { useClickAway } from "react-use";
 import { useFilterSortQuery } from "@/hooks/filter/use-filter-sort-query";

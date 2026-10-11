@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { cn } from "@/lib/utils";
+import { cn } from "@/shared/lib/cn";
 import { Trash2 } from "lucide-react";
 import { BasketCard } from "./basket-card";
 import { BasketTotal } from "./basket-total";
@@ -10,7 +10,7 @@ import {
   BreadcrumbItem,
   BreadcrumbLink,
   BreadcrumbPage,
-} from "../ui/breadcrumb";
+} from "../../shared/ui/breadcrumb";
 import { toast } from "sonner";
 import { useBasket } from "@/hooks/use-basket";
 import { BasketItemDTO } from "@/@types/basket";

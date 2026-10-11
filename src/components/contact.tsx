@@ -1,7 +1,7 @@
 import React from "react";
-import { Hero } from "./hero";
-import { Title } from "./title";
-import { Container } from "./container";
+import { Hero } from "../shared/ui/hero";
+import { Title } from "../shared/ui/title";
+import { Container } from "../shared/ui/container";
 import { ContactInfo } from "./contact-info";
 import { FormContact } from "./form/form-contact";
 import { ContactHero } from "@prisma/client";

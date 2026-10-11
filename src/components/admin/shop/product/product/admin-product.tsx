@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { cn } from "@/lib/utils";
+import { cn } from "@/shared/lib/cn";
 import { Category, Color, Product } from "@prisma/client";
 import { useAdminProduct } from "@/hooks/admin/admin-product";
 import { AdminProductCreate } from "./admin-product-create";
