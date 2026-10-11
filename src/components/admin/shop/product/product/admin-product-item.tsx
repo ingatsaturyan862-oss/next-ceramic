@@ -4,10 +4,10 @@ import { AdminColorSelect } from "./admin-color-select";
 import { AdminProductProps } from "@/hooks/admin/admin-product";
 import { Category, Color, Product } from "@prisma/client";
 import { FilePicker, ImageThumb } from "./admin-image-controls";
-import { Label } from "@/components/ui/label";
-import { Checkbox } from "@/components/ui/checkbox";
-import { Input } from "@/components/ui/input";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import { Label } from "@/shared/ui/label";
+import { Checkbox } from "@/shared/ui/checkbox";
+import { Input } from "@/shared/ui/input";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/shared/ui/select";
 
 type Item = Product & { color: Color[] };
 

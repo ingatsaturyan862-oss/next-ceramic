@@ -1,8 +1,8 @@
 "use client";
 import React from "react";
-import { cn } from "@/lib/utils";
+import { cn } from "@/shared/lib/cn";
 import { FormInput } from "./form-input";
-import { Button } from "../ui/button";
+import { Button } from "../../shared/ui/button";
 import { FormProvider, useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { toast } from "sonner";

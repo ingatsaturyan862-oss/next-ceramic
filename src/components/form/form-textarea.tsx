@@ -1,10 +1,10 @@
 "use client";
 
 import React, { TextareaHTMLAttributes } from "react";
-import { cn } from "@/lib/utils";
-import { Label } from "../ui/label";
+import { cn } from "@/shared/lib/cn";
+import { Label } from "../../shared/ui/label";
 import { useFormContext } from "react-hook-form";
-import { Textarea } from "../ui/textarea";
+import { Textarea } from "../../shared/ui/textarea";
 interface Props extends TextareaHTMLAttributes<HTMLTextAreaElement> {
   className?: string;
   label?: string;

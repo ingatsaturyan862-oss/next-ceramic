@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import { cn } from "@/lib/utils";
-import { Title } from "./title";
+import { cn } from "@/shared/lib/cn";
+import { Title } from "../shared/ui/title";
 import { PlateServices } from "./plate-services";
 import { servicesTeam } from "@/constants/services";
 

@@ -1,8 +1,8 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import React from "react";
-import { cn } from "@/lib/utils";
+import { cn } from "@/shared/lib/cn";
 import Image from "next/image";
-import { Input } from "../ui/input";
+import { Input } from "../../shared/ui/input";
 import { useFormContext } from "react-hook-form";
 import { User } from "lucide-react";
 

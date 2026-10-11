@@ -2,8 +2,8 @@
 import { PostBasketValue } from "@/@types/basket";
 import { ApiRoutes } from "@/constants/api-routes";
 import { useSession } from "@/lib/auth-client";
-import { fetcher } from "@/lib/fetcher";
-import { axiosInstance } from "@/lib/instance";
+import { fetcher } from "@/shared/api";
+import { axiosInstance } from "@/shared/api/instance";
 import { useBasketStore } from "@/store/use-basket-store";
 import { Product } from "@prisma/client";
 import useSWR from "swr";
@@ -63,9 +63,9 @@ export const useBasket = () => {
 
   const quantityBasket = isAuthed
     ? dataAuthBasket.items?.reduce(
-        (acc: number, el: any) => acc + el.quantity,
-        0,
-      )
+      (acc: number, el: any) => acc + el.quantity,
+      0,
+    )
     : quantity;
 
   const addProduct = async (value: PostBasketValue) => {

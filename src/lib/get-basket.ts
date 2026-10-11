@@ -1,5 +1,5 @@
 import { ApiRoutes } from "@/constants/api-routes";
-import { axiosInstance } from "./instance";
+import { axiosInstance } from "../shared/api/instance";
 
 export const getBasket = async (ids: number[]) =>
   (

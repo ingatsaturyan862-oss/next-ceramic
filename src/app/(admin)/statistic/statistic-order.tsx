@@ -1,7 +1,7 @@
 import React from 'react';
-import { cn } from '@/lib/utils';
+import { cn } from '@/shared/lib/cn';
 import { Order } from '@prisma/client';
-import { TableHeader, TableRow, TableHead, TableBody, TableCell, Table } from '@/components/ui/table';
+import { TableHeader, TableRow, TableHead, TableBody, TableCell, Table } from '@/shared/ui/table';
 
 
 interface Props {

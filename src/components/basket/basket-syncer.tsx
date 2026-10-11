@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { mutate } from "swr";
 import { useSession } from "@/lib/auth-client";
 import { useBasketStore } from "@/store/use-basket-store";
-import { axiosInstance } from "@/lib/instance";
+import { axiosInstance } from "@/shared/api/instance";
 import { ApiRoutes } from "@/constants/api-routes";
 
 export const BasketSyncer = () => {
@@ -17,10 +17,7 @@ export const BasketSyncer = () => {
       return;
     }
 
-    if (basket.length === 0) {
-      mutate(ApiRoutes.BASKET);
-      return;
-    }
+
 
     (async () => {
       try {

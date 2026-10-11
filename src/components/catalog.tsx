@@ -2,9 +2,9 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { cn } from "@/lib/utils";
-import { Container } from "./container";
-import { SkeletonCard } from "./skeleton-card";
+import { cn } from "@/shared/lib/cn";
+import { Container } from "../shared/ui/container";
+import { SkeletonCard } from "../shared/ui/skeleton-card";
 import { Card } from "./card";
 
 interface Props {

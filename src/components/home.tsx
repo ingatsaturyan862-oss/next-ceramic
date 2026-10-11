@@ -1,11 +1,11 @@
 import React from "react";
 import { Catalog } from "./catalog";
-import { cn } from "@/lib/utils";
-import { Hero } from "./hero";
+import { cn } from "@/shared/lib/cn";
+import { Hero } from "../shared/ui/hero";
 import { PlateServices } from "./plate-services";
 import { Post } from "./post";
 import { servicesHome } from "@/constants/services";
-import { Title } from "./title";
+import { Title } from "../shared/ui/title";
 import { HomeHero, Product } from "@prisma/client";
 
 interface Props {

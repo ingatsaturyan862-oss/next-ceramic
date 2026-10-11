@@ -1,6 +1,6 @@
 "use client";
-import { Separator } from "@/components/ui/separator";
-import { SidebarTrigger } from "@/components/ui/sidebar";
+import { Separator } from "@/shared/ui/separator";
+import { SidebarTrigger } from "@/shared/ui/sidebar";
 import { usePathname } from "next/navigation";
 
 export function SiteHeader() {

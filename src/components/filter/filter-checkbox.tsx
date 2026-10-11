@@ -1,7 +1,7 @@
 import React from "react";
-import { cn } from "@/lib/utils";
-import { Label } from "../ui/label";
-import { Checkbox } from "../ui/checkbox";
+import { cn } from "@/shared/lib/cn";
+import { Label } from "../../shared/ui/label";
+import { Checkbox } from "../../shared/ui/checkbox";
 
 interface Props {
   className?: string;

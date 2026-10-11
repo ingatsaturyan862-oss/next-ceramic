@@ -1,8 +1,8 @@
 "use client";
 import React, { InputHTMLAttributes } from "react";
-import { cn } from "@/lib/utils";
-import { Label } from "../ui/label";
-import { Input } from "../ui/input";
+import { cn } from "@/shared/lib/cn";
+import { Label } from "../../shared/ui/label";
+import { Input } from "../../shared/ui/input";
 import { useFormContext } from "react-hook-form";
 interface Props extends InputHTMLAttributes<HTMLInputElement> {
   className?: string;

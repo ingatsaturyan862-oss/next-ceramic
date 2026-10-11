@@ -1,7 +1,7 @@
 import React from 'react';
-import { cn } from '@/lib/utils';
+import { cn } from '@/shared/lib/cn';
 import { User } from '@prisma/client';
-import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
+import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/shared/ui/table';
 import Image from 'next/image';
 import { UserIcon } from 'lucide-react';
 

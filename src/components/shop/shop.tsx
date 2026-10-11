@@ -1,9 +1,9 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import React from "react";
-import { cn } from "@/lib/utils";
+import { cn } from "@/shared/lib/cn";
 import { Filter } from "../filter";
 import { Catalog } from "../catalog";
-import { Container } from "../container";
+import { Container } from "../../shared/ui/container";
 import { ShopSort } from "./shop-sort";
 import {
   Breadcrumb,
@@ -11,7 +11,7 @@ import {
   BreadcrumbLink,
   BreadcrumbList,
   BreadcrumbPage,
-} from "../ui/breadcrumb";
+} from "../../shared/ui/breadcrumb";
 import { Sidebar } from "lucide-react";
 import { ShopFilterSidebar } from "./shop-filter-sidebar";
 import { Product } from "@prisma/client";

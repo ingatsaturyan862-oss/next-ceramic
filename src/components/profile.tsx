@@ -1,8 +1,8 @@
 "use client";
 import React from "react";
-import { cn } from "@/lib/utils";
-import { Container } from "./container";
-import { Button } from "./ui/button";
+import { cn } from "@/shared/lib/cn";
+import { Container } from "../shared/ui/container";
+import { Button } from "../shared/ui/button";
 import { deleteUser, signOut } from "@/lib/auth-client";
 import { toast } from "sonner";
 import { FormProfile } from "./form/form-profile";

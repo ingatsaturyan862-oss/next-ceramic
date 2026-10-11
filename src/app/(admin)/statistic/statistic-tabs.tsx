@@ -1,7 +1,7 @@
 "use client"
 import React from 'react';
-import { cn } from '@/lib/utils';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import { cn } from '@/shared/lib/cn';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/shared/ui/tabs';
 import { StatisticUser } from './statistic-user';
 import { StatisticOrder } from './statistic-order';
 import { Order, User } from '@prisma/client';

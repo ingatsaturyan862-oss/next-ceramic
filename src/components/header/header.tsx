@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Logo } from "../logo";
+import { Logo } from "../../shared/ui/logo";
 import { Search } from "./search";
 import { ProfileButton } from "./profile-button";
 import { BasketLink } from "./basket-link";

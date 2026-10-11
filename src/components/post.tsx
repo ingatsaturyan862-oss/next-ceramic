@@ -1,7 +1,7 @@
 import React from "react";
-import { cn } from "@/lib/utils";
-import { Container } from "./container";
-import { Title } from "./title";
+import { cn } from "@/shared/lib/cn";
+import { Container } from "../shared/ui/container";
+import { Title } from "../shared/ui/title";
 import Link from "next/link";
 import Image from "next/image";
 
